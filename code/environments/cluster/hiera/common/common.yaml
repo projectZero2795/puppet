@@ -1,2 +1,2 @@
 ---
-renzlab::systemd::systemd::service: "openvpn"
+renzlab::systemd::custom_systemd::service: "openvpn"

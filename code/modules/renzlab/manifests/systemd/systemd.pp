@@ -1,4 +1,4 @@
-class renzlab::systemd::systemd(
+class renzlab::systemd::custom_systemd(
     $service = "",
     $ensure = "stopped",
     $enable = "ensure"
