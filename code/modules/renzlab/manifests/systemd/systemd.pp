@@ -1,6 +1,6 @@
 class renzlab::systemd::systemd(
     $service = "",
-    $ensure = "running",
+    $ensure = "stopped",
     $enable = "ensure"
 ) {
 
