@@ -12,4 +12,4 @@ hierarchy:
     path: "nodes/%{::trusted.certname}.yaml"
   - name: "Other YAML hierarchy levels"
     paths:
-      - "common.yaml"
+      - "common/common.yaml"
