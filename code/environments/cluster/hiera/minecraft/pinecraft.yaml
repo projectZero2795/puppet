@@ -1,0 +1,4 @@
+---
+renzlab::exec_commands::exec_commands:
+  - "git clone https://github.com/Cat5TV/pinecraft.git"
+  - "cd pinecraft && ./install && ~/minecraft/reboot"
