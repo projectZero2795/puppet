@@ -4,7 +4,7 @@ class renzlab::systemd::systemd(
     $enable = "ensure"
 ) {
 
-    service { $service:
+    service { "$service":
       ensure => $ensure,
       enable => $enable,
     }
