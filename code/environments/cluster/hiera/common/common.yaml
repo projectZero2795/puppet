@@ -1,3 +1,4 @@
+---
 renzlab::systemd::systemd::service: "openvpn"
 renzlab::systemd::systemd::ensure: "running"
 renzlab::systemd::systemd::enable: "present"
